@@ -1,0 +1,23 @@
+{
+	"name": "obarlas/laravel-migrate-custom-command",
+	"description": "Creates database migration files from custom templates.",
+	"authors": [
+		{
+			"name": "Omer Barlas",
+			"email": "omer.barlas@gmail.com"
+		}
+	],
+	"require": {
+		"php": ">=5.3.0",
+		"illuminate/support": "4.1.*"
+	},
+	"autoload": {
+		"classmap": [
+			"src/commands"
+		],
+		"psr-0": {
+			"Obarlas\\LaravelMigrateCustomCommand": "src/"
+		}
+	},
+	"minimum-stability": "stable"
+}
