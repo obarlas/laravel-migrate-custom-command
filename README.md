@@ -14,7 +14,7 @@ Usage
 'Obarlas\LaravelMigrateCustomCommand\LaravelMigrateCustomCommandServiceProvider',
 ```
 
-- In the ```src/stubs``` folder of the package original stubs from the Laravel package can be found, create and copy them to your ```config/migration-templates``` folder. Now you can edit the stubs according to your needs.
+- In the ```src/stubs``` folder of the package original stubs from the Laravel package can be found, create and copy them to your ```database/templates``` folder. Now you can edit the stubs according to your needs.
 
 - Usage is simple
 

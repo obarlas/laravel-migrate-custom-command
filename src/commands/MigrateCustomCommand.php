@@ -43,7 +43,7 @@ class MigrateCustomCommand extends Command {
 		$table = $this->option('table');
 
 		// Check if file exists.
-		$file = app_path() . "/config/migration-templates/" . $stub . ".stub";
+		$file = app_path() . "/database/templates/" . $stub . ".stub";
 		if (!$this->files->isFile($file)) {
 			$this->error("There is no stub with this name.");
 			exit;
